@@ -7715,6 +7715,9 @@
     <!-- [CHAR LIMIT=70] Do not change default display settings, this may reduce perceived screen
          flicker while in VR mode. -->
     <string name="display_vr_pref_off">Reduce flicker</string>
+     
+    <!-- Advanced Controls -->
+    <string name="advanced_controls_title">Advanced Controls</string>	
 
     <!-- Special access > Title for managing Picture-in-picture settings. [CHAR LIMIT=50] -->
     <string name="picture_in_picture_title">Picture-in-picture</string>
