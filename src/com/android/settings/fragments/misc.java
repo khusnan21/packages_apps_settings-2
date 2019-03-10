@@ -61,9 +61,4 @@ public class misc extends SettingsPreferenceFragment
 
         return false;
     }
-
-    @Override
-    public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.SETTINGS;
-    }
 }
