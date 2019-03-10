@@ -64,6 +64,6 @@ public class misc extends SettingsPreferenceFragment
     
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.COSP_SETTINGS;
+        return MetricsProto.MetricsEvent.SETTINGS;
     }
 }
