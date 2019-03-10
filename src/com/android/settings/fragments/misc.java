@@ -50,7 +50,7 @@ public class misc extends SettingsPreferenceFragment
         addPreferencesFromResource(R.xml.misc);
 
         // Advanced Controls
-        if (!com.cosp.settings.preferences.Utils.isPackageInstalled(getActivity(), KEY_DEVICE_PART_PACKAGE_NAME)) {
+        if (!com.android.settings.preferences.Utils.isPackageInstalled(getActivity(), KEY_DEVICE_PART_PACKAGE_NAME)) {
             getPreferenceScreen().removePreference(findPreference(KEY_DEVICE_PART));
         }
 
